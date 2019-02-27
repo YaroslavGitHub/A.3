@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>year</title>
+
+  </head>
+  <body>
+ <script>
+
+  var year = +prompt("Enter the year");
+  var test1 = 4;
+  var test2 = 100;
+  var test3 = 400;
+  var time1 = year % test1;
+  var time2 = year % test2;
+  var time3 = year % test3;
+  
+  if (time3 == 0) {alert (year +" it is a Leap year and it has 366 days")}
+  else if (time2 == 0) {alert (year +" it is a common year and number of the days is 365")}
+  else if (time1 == 0) {alert (year +" it is a Leap year and it has 366 days")}
+  else {alert (year +" it is a common year and number of the days is 365")}
+
+
+  
+  
+  </script>
+  </body>
+</html>
